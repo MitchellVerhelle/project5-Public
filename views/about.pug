@@ -1,0 +1,52 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1 Mitchell Verhelle
+
+        //Pipes in pug allow for line breaks in larger blocks of text, especially
+        //useful for something like a small bio.
+        p.lead.text-light
+          | Full Stack Web Developer.
+
+        .portfolio-bio
+          p
+          | As a senior student at the Community School of Naples, I have
+          |honed my computer science skills throughout multiple years of
+          |rich coding experience. I link the essence of my knowledge to
+          |the teachers I have had over the years, and greatly appreciate
+          |the time they have sacrificed to develop my CS experience. As
+          |I continue to evolve academically, I want to have a database for
+          |my project history that I can return to in order to relive the
+          |fruitful years of my CSN journey.
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Languages
+
+        ul
+          li JavaScript
+          li Ruby
+          li HTML
+          li CSS
+          li SQL
+
+        h6 Technologies
+
+        ul
+          li Express
+          li node.js
+
+        h6 Contact Info
+
+        ul
+          li mitch@verhelle.com
+
+        a.button.expanded(href='https://www.linkedin.com/in/allison-kemmerle/') LinkedIn
+        a.button.expanded(href='https://github.com/kemmerle') GitHub
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back

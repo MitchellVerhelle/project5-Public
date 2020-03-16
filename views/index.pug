@@ -1,0 +1,21 @@
+extends layout.pug
+
+block content
+  article.grid-container.portfolio-intro
+    div
+
+      h1 Project Portfolio
+
+      p.lead.text-light
+        | I am a student at CSN. I have compiled six
+        |projects over the course of my senior year.
+        |I hope you enjoy a look through the window of my senior year.
+  article.grid-container.portfolio-index
+
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      each project in projects
+        .cell
+          a(href= '/projects/' + project.id)
+            img.thumbnail(src='' + project.first_img)
+            h5 #{project.project_name}

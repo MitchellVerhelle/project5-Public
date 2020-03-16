@@ -1,0 +1,88 @@
+{
+    "projects":[
+        {
+            "id" : "0",
+            "project_name": "Random Quote Generator",
+            "description": "Generates a random quote",
+            "technologies": [
+                "JavaScript", "HTML", "CSS"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "first_img": "/static/images/00.png",
+            "image_urls": [
+                "/static/images/01.png", "/static/images/02.png"
+            ]
+        },
+        {
+            "id" : "1",
+            "project_name": "Student Contact List",
+            "description": "Sort through a list of student contacts randomly selected from an API.",
+            "technologies": [
+                "JavaScript", "HTML", "CSS", "Backend Programming", "Random Person API"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "first_img": "/static/images/10.png",
+            "image_urls": [
+                "/static/images/11.png", "/static/images/12.png"
+            ]
+        },
+        {
+            "id" : "2",
+            "project_name": "Interactive Form",
+            "description": "Enter information that will be saved via back-end software.",
+            "technologies": [
+                "JavaScript", "HTML", "CSS", "Backend Programming"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "first_img": "/static/images/20.png",
+            "image_urls": [
+                "/static/images/21.png", "/static/images/22.png"
+            ]
+        },
+        {
+            "id" : "3",
+            "project_name": "Phrase Hunter",
+            "description": "Guess the phrase, hang man!",
+            "technologies": [
+                "JavaScript", "HTML", "CSS", "Client Side Programming"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "first_img": "/static/images/30.png",
+            "image_urls": [
+                "/static/images/31.png", "/static/images/32.png"
+            ]
+        },
+        {
+            "id" : "4",
+            "project_name": "Sorting Contacts",
+            "description": "A big list of contacts that you can sort through via a constantly updating search bar.",
+            "technologies": [
+                "JavaScript", "HTML", "CSS", "Server Side Programmingss"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "first_img": "/static/images/40.png",
+            "image_urls": [
+                "/static/images/41.png", "/static/images/42.png"
+            ]
+        },
+        {
+            "id" : "5",
+            "project_name": "Portfolio App",
+            "description": "Hosts all previous projects",
+            "technologies": [
+                "JavaScript", "HTML", "CSS", "Backend Programming", "Front End Programming", "Template", "node", "express"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "first_img": "/static/images/50.png",
+            "image_urls": [
+                "/static/images/51.png", "/static/images/52.png"
+            ]
+        }
+    ]
+}
